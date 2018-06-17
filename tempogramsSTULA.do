@@ -7,14 +7,14 @@
 for instance to women on weekends, or add options to tab below*/
 
 clear
-cd "C:\Users\Kamila\Documents"
+cd "~\Documents"
 save temp, replace emptyok 
 
 
 
 forvalues i = 1(1)96 {
-  use "C:\Users\Kamila\Dropbox\2018\D\Data files\datacopy\Japan_J.dta", clear
-  cd "C:\Users\Kamila\Documents"
+  use "~\Japan_J.dta", clear
+  cd "~\Documents"
   local j = 301+`i'*6-6
   quietly tab v`j', matcell(a)
   svmat double a
