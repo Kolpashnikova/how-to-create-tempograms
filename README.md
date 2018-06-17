@@ -5,4 +5,4 @@ Each dataset is specific, this code works with datasets like STULA 2006 (Japanes
 
 You will get something like the following:
 
-![Image](https://github.com/Kolpashnikova/Japanese_tempograms/blob/master/img/tempogram%20Japanese%20women%20on%20weekdays.png)
+![Image](https://raw.githubusercontent.com/Kolpashnikova/how-to-create-tempograms/master/tempogram.png)
